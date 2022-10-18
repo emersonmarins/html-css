@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5em;
+            background-color: rgb(112, 67, 37);
+            margin: 0px;
+            color: rgb(34, 29, 22);
+        }
+        header {
+            background-color: black;
+            color: aliceblue;
+            margin: 0px 0px 0px 0px;
+            
+        }
+        .principal {
+            padding: 10px;
+        }
+        
+        h1 {
+            width: 200px;
+            margin: 10px auto 10px auto;
+        }
+        nav > a {
+            text-decoration: none;
+            color: rgb(180, 131, 86);
+            margin-right: 30px; 
+            font-weight: bold; 
+            
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            color: rgb(243, 184, 129);
+    
+        }
+        nav > .esportesub {
+            display: none;
+        }
+
+        nav {
+            text-align: center;
+            
+        }
+
+        main{
+        
+            width: 900px;
+            background-color: rgb(156, 110, 67);
+            padding: 15px;
+            margin: auto;
+            box-shadow: inset 0px 0px 4px 1px #08080879;
+
+        }
+        img {
+            width: 900px;
+        }
+
+        header > h2 {
+            padding: 5px;
+        }
+        aside {
+        
+            color: rgb(34, 25, 13);
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: black;
+            color: aliceblue;
+            padding: 5px;
+            margin-top: 400px;
+        }
+        .esporte {
+            display: inline;
+        }
+        nav:hover > .esportesub {
+            display: block;
+        }
+        .submenu {
+            display: block;
+            text-decoration: none;
+            color: aliceblue;
+        }
+    </style>
+
+</head>
+<body>
+    <header class="principal">
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#" class="esporte">Esportes
+                <div class="esportesub">
+                    <a href="#" class="submenu">Futebol</a>
+                    <a href="#" class="submenu">Volei</a>
+                    <a href="#" class="submenu">Formula 01</a>
+                </div>
+            </a>
+            <a href="#">Culínaria</a>
+            <a href="#">Laser</a>
+            <a href="#">Estética</a>
+            <a href="#"></a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <article>
+                <header>
+                    <h2>Notícias sobre o Brasil</h2>
+                </header>
+               <img src="https://aventurasnahistoria.uol.com.br/media/_versions/hard_news/bandeiracapa_widelg.jpg" alt="bandeira-do-Brasil">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad placeat iste voluptates ab veniam nisi? Soluta numquam cumque, accusantium esse illo laboriosam repellat odit eligendi quidem, deleniti culpa nesciunt eos.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+<footer>
+    <p>Desenvolvido por Cursoemvideo</p>
+</footer>
+
+</body>
+</html>

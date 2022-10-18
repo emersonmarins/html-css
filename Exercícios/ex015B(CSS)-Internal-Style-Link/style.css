@@ -1,0 +1,19 @@
+/* Regra para não haver error de incompatibilidade com algumas acentuações */
+@charset "UTF-8";
+body {
+    background-color: rgb(83, 83, 83); font-size: 21px; 
+
+   }
+   h1 {
+     color: aqua;
+     background-color: rgb(141, 140, 140);
+     text-align: center;
+     border-radius: 5px;
+   }
+   h2 {
+     color: aquamarine;
+   }
+   p {
+     text-align: justify;
+     color: aliceblue;
+   }

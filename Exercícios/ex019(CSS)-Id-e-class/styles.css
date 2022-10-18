@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/* 
+    em HTML é id = em CSS é # (só pode um elemento)
+    em HTML é class = em CSS é .(pode vários elementos)
+*/
+
+body {
+
+    background-color: rgb(187, 190, 136);
+    font-family: Arial, Helvetica, sans-serif;
+    
+    margin: 40px;
+}
+main {
+    background-image: linear-gradient(90deg, rgb(122, 141, 92), rgb(94, 128, 40));
+    width: 1140px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.541);
+    border-radius: 7px;
+    padding: 40px 10px 10px 10px;
+    margin: auto;
+    
+}
+
+h1 {
+    color: rgb(71, 121, 19);
+}
+
+h1#principal {
+    color: rgb(252, 255, 215);
+    margin: 15px;
+    text-align: center;
+    background-color: darkolivegreen;
+    border-radius: 7px;
+    padding: 7px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.534);
+    
+    
+
+}
+h1 {
+    text-align: center;
+}
+hr {
+    border-color: rgba(193, 207, 60, 0.5);
+    margin: 0px 20px 0px 20px;
+}
+#hr01 {
+    border-color: rgba(193, 207, 60, 0.5);
+    margin: -12px 450px 0px 450px;
+}
+#hr02 {
+    border-color: rgba(193, 207, 60, 0.5);
+    margin: -12px 500px 0px 500px;
+}
+h2 {
+    text-align: center;
+}
+p {
+    padding: 0px 40px 0px 40px;
+    text-align: justify;
+}
+.basico{
+    color: rgb(10, 101, 107);
+}
+.intermediario{
+    color: #17474b;
+
+}
+.avancado{
+    color: #213b3b;
+
+}
+.destaque {
+    background-color: rgba(94, 94, 45, 0.623);
+}

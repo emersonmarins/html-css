@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Favicon/favicon.ico" type="image/x-icon">
+
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <H1>Imagem dinâmica</H1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/Pequeno.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/Médio.png" type="image/png">
+        <img src="imagens/Grande.png" alt="imagem flexível">
+    </picture>
+   
+
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML5</p>
+    <audio src="midia/After School Jamboree - The Green Orbs.mp3" controls></audio> <!--formatos compatives MP3 WAV OGG-->
+
+    <audio preload="auto" controls lopp>
+        <source src="midia/Cuckoo Clock - Quincas Moreira.mp3" type="audio/mpeg">
+        <source src="midia/Cuckoo Clock - Quincas Moreira.ogg" type="audio/ogg">
+        <source src="midia/Cuckoo Clock - Quincas Moreira.wav" type="audio/wav">
+
+        <p>Infelizmente seu navegador não consegue tocar o áudio</p>
+        <a href="midia/Cuckoo Clock - Quincas Moreira.mp3">Faça o Download dele aqui</a>
+    </audio>
+    <audio preload="metadata" controls loop>
+        <source src="midia/After School Jamboree - The Green Orbs.mp3" type="audio/mp3">
+    </audio>
+
+    <h1>Tipos de Midia</h1>
+    <p></p>
+</body>
+</html>

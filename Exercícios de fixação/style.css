@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    text-align: justify;
+    background-color: rgba(14, 14, 14, 0.943);
+    color: beige;
+}
+
+h1 {
+    text-align: center;
+    color: aqua;
+    background-color: rgba(0, 0, 0, 0.519);
+    outline-style: dashed;
+    outline-width: 2px;
+    padding: 10px;
+    margin: 40px 40%;
+    border-radius: 7px;
+    
+   
+}
+h2 {
+    color: rgb(127, 127, 255);
+    border-bottom: solid 1px rgb(44, 52, 67);
+    padding-bottom: 20px;
+    text-align: center;
+    
+}
+p {
+    text-align: justify;
+    
+
+}
+#especial {
+    margin-top: 100px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hover</title>
+
+    <style>
+
+        div {
+            margin: auto;
+            text-align: center;
+        }
+
+        div > a {
+            display: inline-block;
+            width: 300px;
+            height: 300px;
+            background-color: rgb(222, 145, 36);
+            text-decoration: none;
+            color: aliceblue;
+            text-align: center;
+            font-size: 3em;
+            margin-bottom: 50px;
+            border: solid 3px black;
+            border-radius: 7px;
+        }
+
+        a:hover {
+            background-color: greenyellow;
+        }
+        a {
+            background-color: burlywood;
+            width: 450px;
+            padding: 3px;
+            margin: auto;
+            display: block;
+            font-size: 3em;
+            text-align: center;
+        }
+        .linkk > a::before {
+            content: '⇒';
+            color: blue;
+        }
+        .linkk > a::after {
+            content: '⇐';
+            color: blue;
+        }
+    </style>
+
+</head>
+<body>
+    <div>
+        <a href="#">01</a>
+        <a href="#">02</a>
+        <a href="#">03</a>
+    </div>
+    <section class="linkk">
+        <a href="ex020.html">Página Inicial</a>
+    </section>
+</body>
+</html>

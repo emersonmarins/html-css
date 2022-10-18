@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu 01</title>
+    <style>
+        body {
+            font-size: 2em;
+        }
+    
+        .esportes {
+            display: inline-block;
+            margin-right: 30px;
+        }
+        .esportes > .epsub {
+            display: none;
+        }
+        .esportes:hover > .epsub {
+            display: block;
+        }
+        .politica {
+            display: inline-block;
+            margin-right: 30px;
+        }
+
+        .politica > .epsub {
+            display: none;
+        }
+        .politica:hover > .epsub {
+            display: block;
+        }
+
+        menu {
+            display: inline;
+        }
+        a {
+            display: block;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <a href="#">aaa</a> <a href="#">aerw</a>
+    <header>
+        <menu class="esportes">Esportes
+            <div class="epsub">
+<a href="Futebol.html">Futebol</a>
+<a href="#">Volei</a>
+<a href="#">Tennis</a>
+
+            </div>
+           
+        </menu>
+        <menu class="politica">Política
+            <div class="epsub">
+<a href="#">Senado</a>
+<a href="#">Congresso</a>
+<a href="#">Presidencia</a>
+<a href="#">Eleições</a>
+            </div>
+        </menu>
+        
+    </header>
+</body>
+</html>

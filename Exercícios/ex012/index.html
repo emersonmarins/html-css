@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Favicon/favicon.ico" type="image/x-icon">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado em meu próprio servidor</p>
+    <!-- Essa forma não reprodus em todo navegador por isso é necessário disponibilizar outros formatos <video src="midia/video720p30.webm" width="400" controls></video> -->
+    <video controls width="350">
+        <source src="midia/pexels-rodnae-productions-8474604.mp4" type="vídeo/mp4">
+        <source src="midia/video720p30.m4v" type="vídeo/mp4">
+         <source src="midia/video720p30.webm" type="vídeo/webm">
+        <p>Seu navegador não tem compatibilidade para reproduzir esse vídeo</p>
+    </video>
+
+    <h1>Inserindo vídeo do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/xdWPiQm2y7s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/5UElXNGlCJk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h1>Adicionando vídeo no vimeo</h1>
+    <div><iframe width="700" height="400" src="https://player.vimeo.com/video/756999468?h=dcde0fdb4c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"  title="Carro Speed 360&amp;ordm;.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+    <h1>Palavra com a pregadora LAYANE </h1>
+    <div style="padding:100% 0 0 0;position:relative;"><iframe width="560" src="https://player.vimeo.com/video/757001706?h=099a16a0e5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:560px;height:40%;" title="Uma palavra de &amp;Acirc;nimo #DerrubandoGigantes!!@!@.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+</body>
+</html>

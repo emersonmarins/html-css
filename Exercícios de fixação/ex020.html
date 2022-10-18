@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudos-class</title>
+
+    <style>
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5em;
+        }
+        body {
+            font-size: 1.3em;
+        }
+        div > p {
+            display: none;
+        }
+        div:hover {
+            color: red;
+        }
+        div:hover > p {
+            display: block;
+            background-color: red;
+            color: white;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>Passe o mouse aqui
+        <p>Texto escondido</p>
+    </div>
+    <a href="ex020b.html">pseudo-class</a>
+</body>
+</html>

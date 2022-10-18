@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Favicon/favicon.ico" type="image/x-icon">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Voçê pode acessar o meu <a href="https://www.amorelacos.com" target="_blank" rel="external">site clicando nessa frase</a></p>
+    <p>Voçê também pode acessar <a href="https://www.instagram.com/amorelacos07/" target="_blank" rel="external">meu instagram</a></p>
+
+    <h1>Usando links internos</h1>
+    <p>Está é a primeira página, acesse nossa 
+        <!-- O rel fala para o mecanismo de busca no caso o google qual é a próxima página, evitando dele ter que 'adivinhar' -->
+        <a href="pag002.html" rel="next">segunda página</a> e confira no linda página!</p>
+    <!-- Quando coloca o rel=nofollow vc está dizendo para o mecanismo de busca do google não indexar o site da qual está lincado, porém tem cliente que querem um linque dofollow ou seja querem que o google index seu conteúdo -->
+    <p>Este conteúdo é patrocinado pela <a href="https://www.amorelacos.com" target="_blank" rel="nofollow">Amor & Laços</a></p>
+    <p>Voçê também pode acessar nossa <a href="noticias/pag003.html" target="_self" rel="next">página de notícias</a></p>
+</body>
+</html>
