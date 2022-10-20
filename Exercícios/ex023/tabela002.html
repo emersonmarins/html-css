@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Grandes</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        table {
+            width: 600px;
+            border-collapse: collapse;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 7px;
+        }
+
+        thead {
+            background-color: rgb(69, 69, 69);
+            color: white;
+        }
+        tbody .inicio {
+            background-color: yellowgreen;
+            text-align: center;
+        }
+        tbody .meio {
+            background-color: rgb(108, 137, 50);
+            color: white;
+            font-weight: bolder;
+        }
+    
+        tbody .fim {
+            background-color: rgba(226, 226, 57, 0.671);
+            text-align: right;
+
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!-- 
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            THEAD
+                TR, TD, TH  
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+            -->
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>Posição</th>
+                <th>Unidade federativa</th>
+                <th class="fim">População (2021)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="inicio">1</td>
+                <td class="meio">São Paulo</td>
+                <td class="fim">46 649 132	</td>
+            </tr>
+            <tr>
+                <td class="inicio">2</td>
+                <td class="meio">Minas Gerais</td>
+                <td class="fim">21 411 923	</td>
+            </tr>
+            <tr>
+                <td class="inicio">3</td>
+                <td class="meio">Rio de Janeiro</td>
+                <td class="fim">17 463 349	</td>
+            </tr>
+            <tr>
+                <td class="inicio">4</td>
+                <td class="meio">Bahia</td>
+                <td class="fim">14 985 284	</td>
+            </tr>
+            <tr>
+                <td class="inicio">5</td>
+                <td class="meio">Paraná</td>
+                <td class="fim">11 597 484	</td>
+            </tr>
+            <tr>
+                <td class="inicio">6</td>
+                <td class="meio">Rio Grande do Sul</td>
+                <td class="fim">11 466 630	</td>
+            </tr>
+            <tr>
+                <td class="inicio">7</td>
+                <td class="meio">Pernambuco</td>
+                <td class="fim">9 674 793	</td>
+            </tr>
+            <tr>
+                <td class="inicio">8</td>
+                <td class="meio">Ceará</td>
+                <td class="fim">9 240 580	</td>
+            </tr>
+            <tr>
+                <td class="inicio">9</td>
+                <td class="meio">Pará</td>
+                <td class="fim">8 777 124	</td>
+            </tr>
+            <tr>
+                <td class="inicio">10</td>
+                <td class="meio">Santa Catarina</td>
+                <td class="fim">7 338 473	</td>
+            </tr>
+
+            <tr>
+                <td class="inicio">11</td>
+                <td class="meio">Goiás</td>
+                <td class="fim">7 206 589	</td>
+            </tr>
+            <tr>
+                <td class="inicio">12</td>
+                <td class="meio">Maranhão</td>
+                <td class="fim">7 153 262	</td>
+            </tr>
+            <tr>
+                <td class="inicio">13</td>
+                <td class="meio">Amazonas</td>
+                <td class="fim">4 269 995	</td>
+            </tr>
+            <tr>
+                <td class="inicio">14</td>
+                <td class="meio">Espírito Santo</td>
+                <td class="fim">4 108 508	</td>
+            </tr>
+            <tr>
+                <td class="inicio">15</td>
+                <td class="meio">Paraíba</td>
+                <td class="fim">4 059 905	</td>
+            </tr>
+            <tr>
+                <td class="inicio">16</td>
+                <td class="meio">Mato Grosso</td>
+                <td class="fim">3 567 234	</td>
+            </tr>
+            <tr>
+                <td class="inicio">17</td>
+                <td class="meio">Rio Grande do Norte</td>
+                <td class="fim">3 560 903	</td>
+            </tr>
+            <tr>
+                <td class="inicio">18</td>
+                <td class="meio">Alagoas</td>
+                <td class="fim">3 365 351	</td>
+            </tr>
+            <tr>
+                <td class="inicio">19</td>
+                <td class="meio">Piauí</td>
+                <td class="fim">3 289 290	</td>
+            </tr>
+            <tr>
+                <td class="inicio">20</td>
+                <td class="meio">Distrito Federal</td>
+                <td class="fim">3 094 325	</td>
+            </tr>
+            <tr>
+                <td class="inicio">21</td>
+                <td class="meio">Mato Grosso do Sul</td>
+                <td class="fim">2 839 188	</td>
+            </tr>
+            <tr>
+                <td class="inicio">22</td>
+                <td class="meio">Sergipe</td>
+                <td class="fim">2 338 474	</td>
+            </tr>
+            <tr>
+                <td class="inicio">23</td>
+                <td class="meio">Rondônia</td>
+                <td class="fim">1 815 278	</td>
+            </tr>
+            <tr>
+                <td class="inicio">24</td>
+                <td class="meio">Tocantins</td>
+                <td class="fim">1 607 363	</td>
+            </tr>
+            <tr>
+                <td class="inicio">25</td>
+                <td class="meio">Acre</td>
+                <td class="fim">906 876	</td>
+            </tr>
+            <tr>
+                <td class="inicio">26</td>
+                <td class="meio">Amapá</td>
+                <td class="fim">877 613	</td>
+            </tr>
+            <tr>
+                <td class="inicio">27</td>
+                <td class="meio">Roraima</td>
+                <td class="fim">652 713</td>
+            </tr>
+           
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+</body>
+</html>
