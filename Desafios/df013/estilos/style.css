@@ -21,7 +21,7 @@ body {
 main {
     position: relative;
     height: 100vh;
-
+    display: flex;
 }
 
 #telefone {
@@ -45,6 +45,24 @@ main {
     width: 267px;
     height: 472px;
 }
-section #menu  {
+#redes-sociais > a > img {
+    width: 60px;
+    margin: 15px;
+    border-radius: 50%;
+    display: block;
+    box-shadow: 1px 1px 5px black;
+}
+#redes-sociais > a > img:hover {
+    border: 7px solid rgba(0, 0, 0, 0.052);
+    box-sizing: border-box;
+    /* transform: translate(-3px, -3px); */
+}
+#redes-sociais {
+    /* background-color: aliceblue; */
+    position: absolute;
+    top: 30px;
+    right: 10px;
 
+
+    
 }
