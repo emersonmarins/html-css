@@ -1,0 +1,7 @@
+/* Tela deitada (orientation:landscape)*/
+body {
+  background-image: url(../imagens/cev-landscape.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}

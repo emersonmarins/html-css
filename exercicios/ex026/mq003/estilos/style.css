@@ -1,0 +1,45 @@
+/* Configuracões gerais*/
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: 0px;
+  
+}
+html, body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #233eff;
+}
+h1 {
+  padding: 10px;
+}
+.teste {
+  display: flex;
+  background: rgb(30, 30, 30);
+  align-items: center;
+  height: 200px;
+  width: 200px;
+}
+.div1 {
+  display: flex;
+  align-items: center;
+  background: #233eff;
+  height: 50px;
+  width: 100px;
+  
+}
+.div1 p {
+  margin: auto;
+}
+
+.div2 {
+  display: flex;
+  align-items: center;
+  background-color: #233eff;
+  height: 50px;
+  width: 100px;
+  
+}
+.div2 p {
+  margin: auto;
+}
