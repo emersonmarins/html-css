@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        .container {
+            position: relative;
+            border: 10px solid aqua;
+            margin: 15px;
+            display: grid;
+            /* padding: 10px; */
+            /* grid-template-columns: 1fr 1fr 1fr; */
+            /* grid-template-columns: minmax(100px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr); */
+            /* grid-template-columns: repeat(3, 1fr); */
+            /* grid-template-columns: repeat(3, minmax(100px, 1fr)); */
+            /* grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); */
+            grid-template-areas: 
+                "i1 i1"
+                "i2 i3"
+                "i4 i4";
+            grid-template-columns: 1fr 200px;
+            grid-template-rows: 80px 500px 80px;
+            /* gap: 10px 15px; */
+            text-align: center;
+            
+            
+            
+        }
+
+        .item {
+            border: 7px solid yellowgreen;
+            background-color: rgba(8, 95, 95, 0.503);
+            
+            
+
+
+        }
+    
+
+        .item-1 {
+           grid-area: i1;
+            
+        } 
+
+        .item-2 {
+            grid-area: i2;
+        } 
+        .item-3 {
+           grid-area: i3;
+            
+        } 
+
+        .item-4 {
+            grid-area: i4;
+        } 
+    </style>
+
+
+</head>
+<body>
+    <!-- 
+        método para multiplicar os itens
+        (div.item.item-$>{Item $})*12 -->
+    <div class="container">
+        <div class="item item-1">Item 1</div>
+        <div class="item item-2">Item 2</div>
+        <div class="item item-3">Item 3</div>
+        <div class="item item-4">Item 4</div>
+       
+    </div>
+</body>
+</html>
