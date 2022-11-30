@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+
+
+        .container {
+            border: 10px solid aqua;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 10px;
+            height: 750px;
+            width: 100vw;
+            gap: 10px 15px;
+            
+        }
+
+        .item {
+            min-width: 260px;
+            max-width: 200px;
+            border: 3px solid yellowgreen;
+            background-color: aqua;
+
+            /* align-self: center;
+            text-align: center; */
+
+
+        }
+
+
+        /* .item-3 {
+            /* Pode modificar a largura do item porém se for mais largo que a definida no container pai afetará na largura das demais 
+            width: auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            
+        } */
+        .item-4 {
+            display: grid;
+            align-items: center;
+        }
+        .item-4 > div {
+            text-align: center;
+
+        }
+    </style>
+
+
+</head>
+<body>
+    <!-- 
+        método para multiplicar os itens
+        (div.item.item-$>{Item $})*12 -->
+    <div class="container">
+        <div class="item item-1">Item 1</div>
+        <div class="item item-2">Item 2</div>
+        <div class="item item-3">Item 3
+            <!-- <div class="item-3.1">Item 3.1</div>
+            <div class="item-3.2">Item 3.2</div> -->
+        </div>
+        <div class="item item-4"><div>Item 4</div></div>
+        <div class="item item-5">Item 5</div>
+        <div class="item item-6">Item 6</div>
+        <div class="item item-7">Item 7</div>
+        <div class="item item-8">Item 8</div>
+        <div class="item item-9">Item 9</div>
+        <div class="item item-10">Item 10</div>
+        <div class="item item-11">Item 11</div>
+        <div class="item item-12">Item 12</div>
+    </div>
+</body>
+</html>
